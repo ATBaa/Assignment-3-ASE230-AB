@@ -1,0 +1,7 @@
+Why does searching use GET while creating a ticket uses POST? because it adds a new resource and modifies data on the server.
+
+Why is server-side validation still necessary if the HTML form performs validation? client-side HTML form validation can be easily bypassed, modified, or completely ignored by a user or malicious actor.
+
+What happens to an uploaded file before PHP moves it to the final upload directory? the web server receives the file via an HTTP POST request and stores it in a temporary location on the server's disk.
+
+Where could you use a similar request-processing pattern in your capstone project?  an API controller, a multi-agent router, or an input validation pipeline.
